@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="myGenerated.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="myGenerated.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Encoding of a letter from Jeanne Lanvin from 1931</title>
+            <author>Jean Labusquière</author>
+            <respStmt>
+               <resp>Compiled by</resp>
+               <name>Thibault Sabin</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Unknown</publisher>
+            <pubPlace>Paris</pubPlace>
+            <date when="2025-01-18">18-01-2025</date>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <country>Unknown</country>
+                  <settlement>Unknown</settlement>
+                  <repository>Unknown</repository>
+                  <idno>Unknown</idno>
+               </msIdentifier>
+               <msContents>
+                  <p>Typed letter from Jeanne Lanvin's closest collaborator, Jean Labusquière, addressed to Madame Gaussen and Minister Édouard Gaussen, then stationed in Stockholm, in 1931.The letter, written on the letterhead of the Jeanne Lanvin haute couture house, provides interesting insights into the challenges faced as early as 1931 regarding the employment of individuals of foreign origin.</p>
+               </msContents>
+               <physDesc>
+                  <objectDesc>
+                     <supportDesc>
+                        <extent>
+                           <dimensions>
+                              <height unit="mm">270</height>
+                              <width unit="mm">210</width>
+                           </dimensions>
+                        </extent>
+                        <condition>Excellent condition</condition>
+                     </supportDesc>
+                  </objectDesc>
+                  <decoDesc>
+                     <p>Lanvin's famous mother-and-child logo designed in 1924, symbolizing her bond with her daughter Marguerite.</p>
+                  </decoDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">français</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="type">
+               <term>Personnal correspondence</term>
+            </keywords>
+         </textClass>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName>Jeanne Lanvin</persName>
+               <address>
+                  <addrLine>22, FAUBOURG ST HONORE</addrLine>
+               </address>
+               <placeName>PARIS</placeName>
+               <date when="1931-09-22">LE 22 Septembre 1931</date>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Madame Marthe GAUSSEN</persName>
+               <address>
+                  <addrLine>LEGATION DE FRANCE</addrLine>
+                  <addrLine>à STOCKHOLM</addrLine>
+               </address>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <encodingDesc>
+         <editorialDecl>
+            <hyphenation eol="none">
+               <p>Hyphenated words that appear at the end of the line in the Foner edition have been
+                  reformed.</p>
+            </hyphenation>
+         </editorialDecl>
+      </encodingDesc>
+  </teiHeader>
+  <text>
+      <front>
+         <head>
+            <figure>
+               <figDesc>Lanvin's famous mother-and-child logo designed in 1924, symbolizing her bond with her daughter Marguerite.</figDesc>
+            </figure>
+            <persName>Jeanne Lanvin</persName>
+            <address>
+               <addrLine>22, FAUBOURG ST HONORE</addrLine>
+            </address>
+            <num type="phoneNumber">
+               <address>
+                  <addrLine>TEL ELYSEES</addrLine>
+               </address>
+               <num>17-88-17-89</num>
+               <num>41-97-46-55</num>
+            </num>
+            <num type="telegraphicAddress">TELEGR. JEANANVIN-PARIS 123</num>
+            <listPlace>
+               <place>
+                  <settlement>
+                     <address>
+                        <addrLine>DEAUVILLE</addrLine>
+                        <addrLine>AVENUE DE L'HIPPODROME</addrLine>
+                        <num type="phoneNumber">Tél: 2-86</num>
+                     </address>
+                  </settlement>
+                  <settlement>
+                     <address>
+                        <addrLine>BIARRITZ</addrLine>
+                        <addrLine>AVENUE EDOUARD VII</addrLine>
+                        <num type="phoneNumber">Tél: 179</num>
+                     </address>
+                  </settlement>
+                  <settlement>
+                     <address>
+                        <addrLine>PARIS-PLAGE</addrLine>
+                        <addrLine>AVENUE SAINT-JEAN</addrLine>
+                        <num type="phoneNumber">Tél: 317</num>
+                     </address>
+                  </settlement>
+                  <settlement>
+                     <address>
+                        <addrLine>CANNES</addrLine>
+                        <addrLine>B° DE LA CROISETTE</addrLine>
+                        <num type="phoneNumber">Tél: 15-34</num>
+                     </address>
+                  </settlement>
+                  <settlement>
+                     <address>
+                        <addrLine>BARCELONE</addrLine>
+                        <addrLine>103, RAMBLA DE CATALUNA</addrLine>
+                        <num type="phoneNumber">Télép: 75.437 (Automatica)</num>
+                     </address>
+                  </settlement>
+                  <settlement>
+                     <address>
+                        <addrLine>MADRID</addrLine>
+                     </address>
+                  </settlement>
+               </place>                  
+            </listPlace>
+         </head>
+      </front>
+      <body>
+         <opener>
+            <dateline>
+               <placeName>PARIS</placeName>
+               <date when="1931-09-22">LE 22 Septembre 1931</date>
+            </dateline>
+            <address>
+               <persName>Madame Marthe GAUSSEN</persName>
+               <addrLine>LEGATION DE FRANCE</addrLine>
+               <addrLine>à STOCKHOLM</addrLine>
+            </address>
+            <salute>Chère Madame,</salute>
+            <note place="margin">
+               <p>DIRECTION</p>
+            </note>
+         </opener>
+         <p>Madame <name role="couturier">Jeanne LANVIN</name>, qui est actuellement en voyage, vient de me transmettre votre lettre du <date when="1931-09-07">7 Septembre</date> dernier qui n'a pu la joindre qu'après avoir été successivement transmise à plusieurs adresses au cours de ses déplacements.</p>
+         <p>En s'excusant de ne pas vous répondre elle-même, <name role="couturier">Madame LANVIN</name> me charge de vous dire qu'elle serait extrémement heureuse de pouvoir vous être agréable en cette circonstance, d'autant plus qu'elle sait combien vous avez été aimable avec nous pendant notre dernier séjour à <placeName>Stockholm</placeName>, <reg>m</reg>ais, je ne vous surprendrai pas en vous disant que la crise qui sévit actuellement sur toutes les affaires en général, et sur celles de la couture en particulier<add>,</add> nous oblige à beaucoup de modération !</p>
+         <p>Vous n'ignorez sans doute pas que beaucoup de nos collègues <orig>on</orig> dû restreindre dans de très sérieuses proportions le nombre de leurs employés ou de leurs ouvrières et que nous avons actuellement beaucoup de chômage dans notre métier. Les quelques maisons qui ont heureusement eu, comme la nôtre, le privilège de pouvoir conserver tous</p>
+         <note place="margin">
+            <p>TOUS LES MODELES LANVIN SONT DEPOSES QUICONQUE LES COPIE S'EXPOSE AUX RIGUEURS DE LA LOI DU 14 JUILLET 1909 POUR CONTREFACON</p>
+            <p>R.C. SEINE 231.151 B</p>
+            <p>SOCIETE AU CAPITAL DE <num type="frenchFranc" value="15000000">15 000 000 FRC</num></p>
+         </note>
+         <p><pb>leurs</pb> employés, n'en sont pas moins obligées de tenir compte de cette situation et, indépendamment de notre devoir, nous éprouvons les plus grandes difficultés avec le <orgName type="public">Ministère du Travail</orgName> pour maintenir chez nous des employés d'origine étrangère, auxquels on refuse les autorisations nécessaires pour être admis dans nos maisons<add>, ou conservés même!</add></p>
+         <p>En de telles circonstances, il ne nous paraît donc vraiment pas possible de prendre un véritable engagement vis-à-vis de votre protégée <reg>ni</reg> de prendre la responsabilité de la faire venir</p> 
+         <p>à <placeName>Paris</placeName> sans savoir, d'une part, si nous pourrions utiliser ses services et, d'autre part, si nous serions en droit de le faire.</p>
+         <p>Toutefois, si elle prenait elle-même la décision de venir en <placeName>France</placeName>, elle n'aurait qu'à m'écrire un mot de votre part. Je m'empresserais de la recevoir et nous ferions l'impossible pour vous être agréable. Il faut espèrer d'ailleurs que les affaires s'amélioreront et que nous aurons plus de facilité dans l'avenir !</p>
+         <p>En tout cas, je reste personnellement à votre disposition pour renseigner cette jeune fille et lui réserver, si elle vient à <placeName>Paris</placeName>,le meilleur accueil que vous puissiez souhaiter.</p>
+      </body>
+      <back>
+         <closer>
+            <salute>Voulez-vous avoir l'obligeance de présenter mes respects au <name role="politician">Ministre</name> en le remerciant encore de toute la cordialité et de toute la bienveillance qu'il nous a témoignées lors de notre voyage et d'agréer, Chère Madame, mes hommages très respectueux et très dévoués.</salute>
+            <signed>
+               <name>Jean Labusquière</name>
+               <figure>
+                  <figDesc>handwritten signature from Jean Labusquière</figDesc>
+               </figure>
+            </signed>
+         </closer>
+      </back>
+  </text>
+</TEI>
