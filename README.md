@@ -7,5 +7,5 @@ I selected four letters, two of which are shorter than the guideline length: a t
 Following Peter Copping’s recent appointment as artistic director, a major exhibition on Lanvin's impact on 20th-century fashion is planned at the Palais Galliera. This event will be inaugurated with a scientific symposium featuring publications on the maison. Key documents from the Lanvin Heritage department are therefore being digitized in XML format to enhance researchers’ access to the data.
 
 To convert my TEI XML document into a .tex file and then into a PDF, I used the following commands:
-xsltproc -o Jeanne_Lanvin_1931.tex SABIN_Thibault_XSL.xsl Jeanne_Lanvin_1931_XML.xml
-pdflatex Jeanne_Lanvin_1931.tex
+- xsltproc -o Jeanne_Lanvin_1931.tex SABIN_Thibault_XSL.xsl Jeanne_Lanvin_1931_XML.xml
+- pdflatex Jeanne_Lanvin_1931.tex
